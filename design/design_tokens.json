@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "colors": {
+    "background": "#F8F9F5",
+    "surface": "#FFFFFF",
+    "textPrimary": "#23372C",
+    "primary": "#426B50",
+    "textSecondary": "#6A786E",
+    "surfaceTint": "#E8EEE5",
+    "error": "#A33D35",
+    "success": "#426B50"
+  },
+  "typography": {
+    "bodyFont": "NusaSans",
+    "headingFont": "NusaSerif",
+    "display": 30,
+    "title": 24,
+    "section": 18,
+    "body": 14,
+    "caption": 12
+  },
+  "spacing": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32
+  ],
+  "radius": {
+    "button": 26,
+    "card": 20,
+    "input": 24
+  },
+  "layout": {
+    "referenceWidth": 390,
+    "referenceHeight": 844,
+    "horizontalPadding": 24,
+    "minTouchTarget": 48,
+    "bottomNavigation": 84
+  },
+  "accessibility": {
+    "minBodyContrast": 4.5,
+    "supportsTextScaling": true,
+    "scrollableContent": true,
+    "meaningfulIconLabels": true,
+    "correctnessNotColorOnly": true
+  }
+}

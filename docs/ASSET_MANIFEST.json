@@ -1,0 +1,119 @@
+[
+  {
+    "path": "assets/badges/langkah_pertama.png",
+    "bytes": 3781,
+    "sha256": "ee793a17ac17db7cb770ad89bdc2085b71ff3474c94948e7a89960673e024587",
+    "dimensions": [
+      512,
+      512
+    ]
+  },
+  {
+    "path": "assets/badges/langkah_pertama.svg",
+    "bytes": 290,
+    "sha256": "c70d70d00719d55dd73968edb17edab3e17accdc07d24858fc6cde169f75be46"
+  },
+  {
+    "path": "assets/badges/lintas_daerah.png",
+    "bytes": 4365,
+    "sha256": "61e660109fbb8050b8bde0f05b62b13ae61759bdab18d2a05f8cd5953c703292",
+    "dimensions": [
+      512,
+      512
+    ]
+  },
+  {
+    "path": "assets/badges/lintas_daerah.svg",
+    "bytes": 292,
+    "sha256": "a6d2a017d0365e501955f213f99c7bc9c2c417f4812ca119a6f2215fae50f04f"
+  },
+  {
+    "path": "assets/badges/penjelajah.png",
+    "bytes": 4716,
+    "sha256": "74df0db94e6cd21e95f4d1582c694280020cfc0bb2ab53b3cea3b854bf2f3909",
+    "dimensions": [
+      512,
+      512
+    ]
+  },
+  {
+    "path": "assets/badges/penjelajah.svg",
+    "bytes": 306,
+    "sha256": "6cc6977e15302dec41f1f7e2b05b5a2dd87129a0e41ec9c3b5f33dd253335ebc"
+  },
+  {
+    "path": "assets/brand/logo_compass.png",
+    "bytes": 4834,
+    "sha256": "b39bd573cc3776639b4db0c33eadaaaa0c026405df21fa777ae62795615cd902",
+    "dimensions": [
+      512,
+      512
+    ]
+  },
+  {
+    "path": "assets/brand/logo_compass.svg",
+    "bytes": 304,
+    "sha256": "0d4c222c54785833c5f4b99674edb90e5fc50243e158db6f1d8e114c9c122412"
+  },
+  {
+    "path": "assets/data/content.json",
+    "bytes": 39079,
+    "sha256": "cb5248f1cd63ad52eb9b498c12ffde1467f6520efe4e4b1c2e7a3c1e19912dc7"
+  },
+  {
+    "path": "assets/fonts/LICENSE.txt",
+    "bytes": 3859,
+    "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+  },
+  {
+    "path": "assets/fonts/NusaSans-Bold.ttf",
+    "bytes": 708920,
+    "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+  },
+  {
+    "path": "assets/fonts/NusaSans.ttf",
+    "bytes": 759720,
+    "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+  },
+  {
+    "path": "assets/fonts/NusaSerif.ttf",
+    "bytes": 380660,
+    "sha256": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab"
+  },
+  {
+    "path": "assets/illustrations/bali.webp",
+    "bytes": 316670,
+    "sha256": "87880080bc4638adfdea7d0f98a9f271bb8b315a379ea1daf262603c4974c69f",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  {
+    "path": "assets/illustrations/hero_nusantara.webp",
+    "bytes": 268344,
+    "sha256": "6d812cd7e3bc5d5b47d74d52da757432e5f0f94b3df64b22314f6b31003b6670",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "path": "assets/illustrations/sumatera_barat.webp",
+    "bytes": 533742,
+    "sha256": "0e33f20021553745f5dbc26904800a957d7043abb1e91364ce7d70dcb4f06217",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  {
+    "path": "assets/illustrations/yogyakarta.webp",
+    "bytes": 485370,
+    "sha256": "c624cba73e0672672f83579d6fdd0eda4e67c78f25a1050c709a6ba58842dc03",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  }
+]

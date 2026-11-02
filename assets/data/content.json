@@ -1,0 +1,870 @@
+{
+  "regions": [
+    {
+      "id": "bali",
+      "name": "Bali",
+      "tagline": "Seni, alam & tradisi",
+      "image": "assets/illustrations/bali.webp",
+      "description": "Kenali hubungan seni, kehidupan bersama, dan lingkungan melalui cerita budaya Bali. Mulai dari tarian, pengelolaan air, hingga keragaman bahasanya."
+    },
+    {
+      "id": "yogyakarta",
+      "name": "DI Yogyakarta",
+      "tagline": "Kriya & budaya Jawa",
+      "image": "assets/illustrations/yogyakarta.webp",
+      "description": "Jelajahi pengetahuan di balik kain batik, kebersamaan dalam gamelan, serta sebaran bahasa Jawa. Budaya hidup melalui keterampilan dan orang yang merawatnya."
+    },
+    {
+      "id": "sumatera_barat",
+      "name": "Sumatera Barat",
+      "tagline": "Cerita Minangkabau",
+      "image": "assets/illustrations/sumatera_barat.webp",
+      "description": "Temui Rumah Gadang, panggung Randai, dan keragaman bahasa Minangkabau. Pelajari bentuk, fungsi, dan cara menghargai warisan yang terus hidup."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "bali_tari",
+      "regionId": "bali",
+      "title": "Seni tari Bali",
+      "category": "Budaya",
+      "minutes": 5,
+      "subtitle": "Lebih dari gerakan",
+      "sections": [
+        {
+          "title": "Fungsi membentuk pertunjukan",
+          "body": "Tari Bali tidak hanya hadir untuk hiburan. UNESCO mengenali kelompok tari sakral, semi-sakral, dan hiburan. Karena fungsinya berbeda, kesempatan dan aturan pertunjukannya juga dapat berbeda. Mengetahui nama tari saja belum cukup untuk memahami tempatnya dalam kehidupan masyarakat."
+        },
+        {
+          "title": "Gerak yang bercerita",
+          "body": "Gerakan tubuh, perubahan tempo, ekspresi wajah, dan iringan gamelan membangun pertunjukan. Saat mengamati, perhatikan bagaimana unsur tersebut bekerja bersama. Catat ekspresi atau perubahan gerak yang kamu lihat sebelum mencoba menafsirkan pesannya."
+        },
+        {
+          "title": "Belajar dengan menghormati",
+          "body": "Keterampilan tari diteruskan melalui latihan bersama dan pembelajaran sejak usia muda. Jika berkunjung, tanyakan aturan menonton atau merekam kepada penyelenggara. Jangan menganggap semua tarian boleh dipentaskan di sembarang tempat. Sikap hormat membantu kita belajar dari pemilik tradisi."
+        }
+      ],
+      "reflection": "Apa yang perlu kamu tanyakan sebelum menonton atau merekam sebuah pertunjukan?",
+      "sources": [
+        {
+          "title": "Three genres of traditional dance in Bali",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/threegenres-of-traditional-dance-in-bali-00617"
+        },
+        {
+          "title": "Decision 10.COM 10.B.18",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/decisions/10.COM/10.B.18"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bali_tari_q1",
+          "prompt": "Dua tari memiliki gerakan mirip tetapi digunakan pada kesempatan berbeda. Apa yang sebaiknya dipelajari?",
+          "options": [
+            "Harga kostum penarinya",
+            "Fungsi setiap pertunjukan",
+            "Jumlah foto penonton",
+            "Ukuran panggungnya"
+          ],
+          "answer": 1,
+          "explanation": "Fungsi membantu menjelaskan mengapa kesempatan dan aturan pertunjukan berbeda."
+        },
+        {
+          "id": "bali_tari_q2",
+          "prompt": "Kamu ingin memahami pesan pertunjukan. Pengamatan mana yang paling lengkap?",
+          "options": [
+            "Warna panggung saja",
+            "Nama penari saja",
+            "Durasi video saja",
+            "Gerak, ekspresi, dan iringan"
+          ],
+          "answer": 3,
+          "explanation": "Makna pertunjukan dipelajari melalui hubungan beberapa unsur, bukan satu unsur saja."
+        },
+        {
+          "id": "bali_tari_q3",
+          "prompt": "Panitia membatasi perekaman suatu tari. Sikap pengunjung yang tepat adalah…",
+          "options": [
+            "Mematuhi aturan panitia",
+            "Merekam dari tempat tersembunyi",
+            "Meminta teman merekam diam-diam",
+            "Menganggap aturan tidak penting"
+          ],
+          "answer": 0,
+          "explanation": "Menghormati aturan setempat merupakan bagian dari belajar budaya."
+        },
+        {
+          "id": "bali_tari_q4",
+          "prompt": "Seseorang menyebut semua tari Bali hanya hiburan. Tanggapan paling tepat adalah…",
+          "options": [
+            "Menyetujui tanpa membaca",
+            "Membandingkan jumlah penonton",
+            "Menjelaskan keragaman fungsi tari",
+            "Membandingkan harga tiket"
+          ],
+          "answer": 2,
+          "explanation": "Ada fungsi sakral, semi-sakral, dan hiburan; satu label tidak mencakup semuanya."
+        },
+        {
+          "id": "bali_tari_q5",
+          "prompt": "Sanggar melatih anak secara bertahap. Manfaat yang paling sesuai dengan materi adalah…",
+          "options": [
+            "Menghapus semua perbedaan gerak",
+            "Meneruskan keterampilan antargenerasi",
+            "Menggantikan seluruh peran guru",
+            "Menjamin semua anak menjadi juara"
+          ],
+          "answer": 1,
+          "explanation": "Latihan menjadi sarana penerusan pengetahuan dan keterampilan."
+        }
+      ]
+    },
+    {
+      "id": "bali_subak",
+      "regionId": "bali",
+      "title": "Subak dan kebersamaan",
+      "category": "Budaya",
+      "minutes": 5,
+      "subtitle": "Air yang dikelola bersama",
+      "sections": [
+        {
+          "title": "Lebih dari saluran air",
+          "body": "Subak merupakan sistem pengelolaan air pertanian secara bersama di Bali. Sawah berteras, saluran, dan pura air saling terkait dalam lanskap budayanya. Jadi, subak tidak cukup dipahami sebagai bangunan saluran yang berdiri sendiri."
+        },
+        {
+          "title": "Kesepakatan menjaga aliran",
+          "body": "Pengelolaan bersama membutuhkan hubungan antarpengguna air. Bayangkan beberapa sawah memakai sumber yang sama: keputusan satu kelompok dapat berpengaruh pada kelompok lain. Karena itu, saat mempelajari subak, amati pula aturan kerja sama, bukan hanya pemandangan sawahnya."
+        },
+        {
+          "title": "Alam dan kehidupan sosial",
+          "body": "Lanskap subak dikaitkan dengan filosofi Tri Hita Karana, tentang hubungan harmonis manusia, alam, dan kehidupan spiritual. Merawat warisan ini berarti memperhatikan petani, ketersediaan air, serta lingkungan. Berwisata dengan tertib merupakan salah satu cara sederhana menghargai ruang hidup tersebut."
+        }
+      ],
+      "reflection": "Mengapa membangun saluran saja belum cukup untuk menjaga pembagian air?",
+      "sources": [
+        {
+          "title": "Cultural Landscape of Bali Province: the Subak System",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1194"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bali_subak_q1",
+          "prompt": "Sebuah kelompok hanya memotret saluran air. Bagian penting subak apa yang belum mereka kaji?",
+          "options": [
+            "Warna langit sore",
+            "Jumlah pengunjung harian",
+            "Kerja sama para pengguna air",
+            "Harga kamera yang dipakai"
+          ],
+          "answer": 2,
+          "explanation": "Subak juga melibatkan pengelolaan bersama dan hubungan sosial."
+        },
+        {
+          "id": "bali_subak_q2",
+          "prompt": "Dua sawah memakai sumber air sama. Tindakan yang mendukung pengelolaan bersama adalah…",
+          "options": [
+            "Menyusun kesepakatan pemakaian",
+            "Menutup aliran tanpa musyawarah",
+            "Mengabaikan kebutuhan tetangga",
+            "Mengambil air sebanyak mungkin"
+          ],
+          "answer": 0,
+          "explanation": "Kesepakatan membantu mempertimbangkan kebutuhan para pengguna sumber yang sama."
+        },
+        {
+          "id": "bali_subak_q3",
+          "prompt": "Mengapa subak disebut bagian dari lanskap budaya?",
+          "options": [
+            "Karena semua sawah berwarna sama",
+            "Karena hanya berisi pura",
+            "Karena tidak melibatkan manusia",
+            "Karena alam dan praktik masyarakat saling terkait"
+          ],
+          "answer": 3,
+          "explanation": "Bentang alam dibentuk dan dirawat melalui pengetahuan serta praktik masyarakat."
+        },
+        {
+          "id": "bali_subak_q4",
+          "prompt": "Rencana wisata menutup akses petani ke sawah. Penilaian yang paling tepat adalah…",
+          "options": [
+            "Baik karena fotonya menarik",
+            "Perlu dikaji agar kehidupan petani terlindungi",
+            "Tidak perlu membahas petani",
+            "Cukup menambah papan nama"
+          ],
+          "answer": 1,
+          "explanation": "Pelestarian perlu menjaga fungsi pertanian dan masyarakat yang merawatnya."
+        },
+        {
+          "id": "bali_subak_q5",
+          "prompt": "Pelajaran subak yang dapat diterapkan dalam tugas kelompok adalah…",
+          "options": [
+            "Mengutamakan hasil satu anggota",
+            "Menyerahkan semua tugas pada ketua",
+            "Mengatur tanggung jawab bersama",
+            "Menghapus seluruh aturan kerja"
+          ],
+          "answer": 2,
+          "explanation": "Kerja sama membutuhkan kesepakatan dan tanggung jawab, bukan tindakan sepihak."
+        }
+      ]
+    },
+    {
+      "id": "bali_bahasa",
+      "regionId": "bali",
+      "title": "Mengenal bahasa Bali",
+      "category": "Bahasa",
+      "minutes": 5,
+      "subtitle": "Satu bahasa, beragam pemakaian",
+      "sections": [
+        {
+          "title": "Bahasa dan persebarannya",
+          "body": "Bahasa Bali berasal dari Pulau Bali, tetapi penuturnya juga berada di wilayah lain Indonesia. Peta Bahasa mencatat antara lain Nusa Tenggara Barat, Jawa Timur, Lampung, dan Sulawesi Tenggara. Batas penggunaan bahasa tidak selalu sama dengan batas provinsi."
+        },
+        {
+          "title": "Mengenali variasi",
+          "body": "Dalam pemetaan Badan Bahasa, bahasa Bali di Bali dibedakan menjadi dialek Bali Aga atau Bali Mula dan Bali Dataran. Pengelompokan ini menunjukkan keragaman, bukan peringkat kualitas. Perbedaan tuturan patut dipelajari dengan mendengarkan penuturnya secara hormat."
+        },
+        {
+          "title": "Langkah belajar yang tepat",
+          "body": "Saat mencatat kata, tuliskan pula tempat asal penutur dan situasi pemakaiannya. Tanyakan arti jika belum paham, jangan menebak pelafalan dari ejaan. Materi ini mengenalkan persebaran dan variasi; latihan pengucapan memerlukan rekaman atau pendamping penutur yang sesuai."
+        }
+      ],
+      "reflection": "Informasi apa yang perlu menyertai daftar kata agar penggunaannya lebih jelas?",
+      "sources": [
+        {
+          "title": "Bahasa Bali — Provinsi Bali",
+          "publisher": "Badan Pengembangan dan Pembinaan Bahasa",
+          "url": "https://petabahasa.kemendikdasmen.go.id/infobahasa2.php?idb=66&idp=Bali"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bali_bahasa_q1",
+          "prompt": "Kamu bertemu penutur Bali di Lampung. Kesimpulan yang sesuai adalah…",
+          "options": [
+            "Bahasa selalu mengikuti batas provinsi",
+            "Ia pasti tidak bisa bahasa Bali",
+            "Bahasa Bali hanya boleh dipakai di Bali",
+            "Penutur bahasa dapat tersebar di luar daerah asal"
+          ],
+          "answer": 3,
+          "explanation": "Persebaran bahasa dapat melampaui wilayah asalnya."
+        },
+        {
+          "id": "bali_bahasa_q2",
+          "prompt": "Dua penutur menggunakan bentuk berbeda. Langkah awal yang baik adalah…",
+          "options": [
+            "Meminta penjelasan variasinya",
+            "Menentukan siapa yang salah",
+            "Menghapus salah satu catatan",
+            "Menertawakan perbedaannya"
+          ],
+          "answer": 0,
+          "explanation": "Perbedaan perlu dipahami melalui penutur dan asal pemakaiannya."
+        },
+        {
+          "id": "bali_bahasa_q3",
+          "prompt": "Catatan kosakata mana yang paling membantu pembelajar?",
+          "options": [
+            "Kata tanpa keterangan",
+            "Kata beserta asal dan situasi pemakaian",
+            "Kata beserta warna kertas",
+            "Kata beserta jumlah halaman"
+          ],
+          "answer": 1,
+          "explanation": "Asal dan situasi membantu menghindari anggapan satu bentuk berlaku di semua tempat."
+        },
+        {
+          "id": "bali_bahasa_q4",
+          "prompt": "Materi teks belum menyertakan rekaman. Apa yang belum dapat dipastikan hanya dari materi ini?",
+          "options": [
+            "Nama daerah yang dibahas",
+            "Adanya variasi bahasa",
+            "Pelafalan kata secara tepat",
+            "Bahasa dapat tersebar"
+          ],
+          "answer": 2,
+          "explanation": "Ejaan saja tidak cukup untuk memastikan pengucapan; diperlukan sumber pelafalan."
+        },
+        {
+          "id": "bali_bahasa_q5",
+          "prompt": "Teman menyebut dialek berbeda lebih rendah. Tanggapan yang tepat adalah…",
+          "options": [
+            "Membuat peringkat baru",
+            "Menjelaskan bahwa variasi bukan peringkat mutu",
+            "Mengabaikan semua dialek",
+            "Menyuruh semua orang berbicara sama"
+          ],
+          "answer": 1,
+          "explanation": "Dialek menunjukkan variasi bahasa, bukan ukuran nilai penuturnya."
+        }
+      ]
+    },
+    {
+      "id": "yogyakarta_batik",
+      "regionId": "yogyakarta",
+      "title": "Mengenal batik",
+      "category": "Budaya",
+      "minutes": 5,
+      "subtitle": "Keterampilan di balik selembar kain",
+      "sections": [
+        {
+          "title": "Proses sebelum pola",
+          "body": "Batik berkaitan dengan keterampilan merintang warna menggunakan malam atau lilin pada kain. Bagian yang tertutup malam menahan pewarna sehingga pola dapat dibentuk. Karena itu, mengenal batik memerlukan perhatian pada proses, bukan hanya tampilan motifnya."
+        },
+        {
+          "title": "Kain yang menyimpan makna",
+          "body": "UNESCO menjelaskan bahwa batik memiliki teknik, simbolisme, dan penggunaan budaya dalam kehidupan masyarakat. Saat mempelajari batik di Yogyakarta, tanyakan asal kain dan penjelasan perajinnya. Jangan memberikan makna pasti pada suatu motif hanya berdasarkan dugaan visual."
+        },
+        {
+          "title": "Menghargai pembuatnya",
+          "body": "Bayangkan membuat pola, memberi malam, mewarnai, lalu melepas malam dengan teliti. Tahap-tahap itu memerlukan keterampilan. Cara belajar yang baik ialah mengamati demonstrasi, mencatat urutan proses, dan menyebut sumber penjelasan. Batik merupakan warisan Indonesia yang berkembang di berbagai daerah, tidak hanya Yogyakarta."
+        }
+      ],
+      "reflection": "Mengapa kita perlu menanyakan proses pembuatan selain nama motif?",
+      "sources": [
+        {
+          "title": "Indonesian Batik",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/indonesianbatik-00170"
+        }
+      ],
+      "questions": [
+        {
+          "id": "yogyakarta_batik_q1",
+          "prompt": "Dua kain memiliki pola serupa. Informasi apa yang membantu memahami proses batiknya?",
+          "options": [
+            "Harga kemasan",
+            "Urutan penggunaan malam dan pewarna",
+            "Nama pembeli sebelumnya",
+            "Ukuran etalase toko"
+          ],
+          "answer": 1,
+          "explanation": "Batik dipahami melalui teknik pembuatan, bukan tampilan pola saja."
+        },
+        {
+          "id": "yogyakarta_batik_q2",
+          "prompt": "Apa peran malam saat kain diberi warna?",
+          "options": [
+            "Menambah panjang kain",
+            "Mengganti seluruh benang",
+            "Mendinginkan pewarna",
+            "Menahan warna pada bagian tertutup"
+          ],
+          "answer": 3,
+          "explanation": "Malam menjadi perintang agar bagian tertentu tidak terkena pewarna."
+        },
+        {
+          "id": "yogyakarta_batik_q3",
+          "prompt": "Kamu belum mengetahui makna suatu motif. Tindakan yang tepat adalah…",
+          "options": [
+            "Menanyakan sumber kepada perajin",
+            "Mengarang makna yang terdengar indah",
+            "Menyamakan semua arti motif",
+            "Mengabaikan keterangan pembuat"
+          ],
+          "answer": 0,
+          "explanation": "Penjelasan perlu didasarkan pada sumber, bukan dugaan."
+        },
+        {
+          "id": "yogyakarta_batik_q4",
+          "prompt": "Seorang teman menyebut batik hanya milik satu kota. Perbaikan pernyataannya adalah…",
+          "options": [
+            "Semua kota membuat motif sama",
+            "Batik tidak memiliki proses khusus",
+            "Batik berkembang di berbagai daerah Indonesia",
+            "Batik hanya digunakan wisatawan"
+          ],
+          "answer": 2,
+          "explanation": "Yogyakarta merupakan salah satu tempat belajar batik, bukan satu-satunya wilayah perkembangannya."
+        },
+        {
+          "id": "yogyakarta_batik_q5",
+          "prompt": "Laporan kunjungan paling menunjukkan penghargaan pada keterampilan perajin jika memuat…",
+          "options": [
+            "Jumlah tas yang dibawa",
+            "Tahap kerja dan penjelasan pembuat",
+            "Warna seragam pengunjung",
+            "Daftar harga minuman"
+          ],
+          "answer": 1,
+          "explanation": "Mencatat tahap dan pengetahuan pembuat membantu memahami keterampilannya."
+        }
+      ]
+    },
+    {
+      "id": "yogyakarta_gamelan",
+      "regionId": "yogyakarta",
+      "title": "Belajar dari gamelan",
+      "category": "Budaya",
+      "minutes": 5,
+      "subtitle": "Mendengar dan bekerja bersama",
+      "sections": [
+        {
+          "title": "Sebuah ansambel",
+          "body": "Gamelan adalah ansambel musik tradisional Indonesia dan juga sebutan untuk perangkat instrumennya. Gamelan tumbuh dalam beragam tradisi, termasuk di Jawa dan Bali. Materi ini menjadi pengantar untuk mengenali kerja bersama dalam sebuah pertunjukan, bukan panduan memainkan instrumen."
+        },
+        {
+          "title": "Bunyi yang saling mengisi",
+          "body": "Permainan gamelan mengikuti aturan dan teknik tertentu, termasuk pola irama serta penyeteman. Saat menyimak, cobalah memperhatikan bunyi yang datang berulang dan yang mengisi sela. Satu pemain perlu mendengarkan pemain lain agar bagiannya mendukung keseluruhan musik."
+        },
+        {
+          "title": "Orang di balik pertunjukan",
+          "body": "Pengetahuan gamelan dirawat oleh pemain, penyanyi, pembuat instrumen, dan penyetem. Pelestarian tidak berhenti pada menyimpan alat. Ruang belajar dan kesempatan berlatih juga penting. Saat berkunjung ke tempat latihan, mintalah izin sebelum menyentuh instrumen dan ikuti arahan pendamping."
+        }
+      ],
+      "reflection": "Bagaimana mendengarkan anggota lain dapat membantu kerja kelompokmu?",
+      "sources": [
+        {
+          "title": "Gamelan",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/gamelan-01607"
+        },
+        {
+          "title": "Decision 16.COM 8.b.16",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/Decisions/16.COM/8.b.16"
+        }
+      ],
+      "questions": [
+        {
+          "id": "yogyakarta_gamelan_q1",
+          "prompt": "Dalam latihan, seorang pemain terus menutupi bunyi pemain lain. Perbaikan yang tepat adalah…",
+          "options": [
+            "Memainkan semua bagian sendiri",
+            "Meminta pemain lain berhenti",
+            "Mendengarkan dan menyesuaikan bagiannya",
+            "Mengabaikan pola kelompok"
+          ],
+          "answer": 2,
+          "explanation": "Bagian individu perlu mendukung keseluruhan permainan."
+        },
+        {
+          "id": "yogyakarta_gamelan_q2",
+          "prompt": "Museum menyimpan perangkat gamelan tetapi tidak memberi ruang belajar. Apa yang dapat ditambahkan?",
+          "options": [
+            "Kegiatan belajar bersama praktisi",
+            "Larangan semua kegiatan musik",
+            "Label harga pada setiap instrumen",
+            "Penggantian seluruh alat dengan foto"
+          ],
+          "answer": 0,
+          "explanation": "Pengetahuan juga hidup melalui orang dan praktik, bukan hanya benda."
+        },
+        {
+          "id": "yogyakarta_gamelan_q3",
+          "prompt": "Siapa saja yang ikut merawat pengetahuan gamelan?",
+          "options": [
+            "Hanya penonton pertama",
+            "Hanya penjual tiket",
+            "Hanya pemilik panggung",
+            "Pemain, pembuat, dan penyetem instrumen"
+          ],
+          "answer": 3,
+          "explanation": "Ekosistem gamelan mencakup berbagai keterampilan."
+        },
+        {
+          "id": "yogyakarta_gamelan_q4",
+          "prompt": "Mengapa tidak tepat menyebut gamelan hanya berasal dari satu kota?",
+          "options": [
+            "Semua perangkat pasti identik",
+            "Tradisinya berkembang di berbagai wilayah",
+            "Semua orang otomatis menguasainya",
+            "Instrumennya tidak perlu dirawat"
+          ],
+          "answer": 1,
+          "explanation": "Gamelan memiliki tradisi di berbagai wilayah, termasuk Jawa dan Bali."
+        },
+        {
+          "id": "yogyakarta_gamelan_q5",
+          "prompt": "Saat mengunjungi tempat latihan, kamu ingin mencoba instrumen. Langkah pertama adalah…",
+          "options": [
+            "Langsung memukul sekerasnya",
+            "Memindahkan alat tanpa arahan",
+            "Meminta izin dan petunjuk",
+            "Menyela pertunjukan yang berlangsung"
+          ],
+          "answer": 2,
+          "explanation": "Izin dan arahan menjaga kenyamanan latihan serta penghormatan pada instrumen."
+        }
+      ]
+    },
+    {
+      "id": "yogyakarta_bahasa",
+      "regionId": "yogyakarta",
+      "title": "Ragam bahasa Jawa",
+      "category": "Bahasa",
+      "minutes": 5,
+      "subtitle": "Mengenali sebaran dan dialek",
+      "sections": [
+        {
+          "title": "Melampaui batas daerah",
+          "body": "Bahasa Jawa digunakan di Daerah Istimewa Yogyakarta dan berbagai wilayah lain. Peta Bahasa mencatat persebarannya di Pulau Jawa serta sejumlah daerah di luar Jawa. Jadi, nama bahasa dan nama provinsi tidak selalu mempunyai batas penggunaan yang sama."
+        },
+        {
+          "title": "Dialek Solo–Yogya",
+          "body": "Dalam pemetaan Badan Bahasa, dialek Solo–Yogya termasuk salah satu ragam bahasa Jawa. Dialek lain yang dicatat di Jawa Tengah meliputi Pekalongan, Wonosobo, Banyumas, dan Tegal. Perbedaan ini menunjukkan kekayaan bahasa, bukan alasan untuk merendahkan cara bicara seseorang."
+        },
+        {
+          "title": "Catat sebelum menyimpulkan",
+          "body": "Jika mendengar bentuk yang belum dikenal, tanyakan arti dan daerah pemakaiannya dengan santun. Bandingkan catatan dari beberapa penutur tanpa memaksa semuanya seragam. Materi pengantar ini belum melatih tingkat tutur atau pelafalan; pembelajaran tersebut memerlukan sumber dan pendamping yang sesuai."
+        }
+      ],
+      "reflection": "Mengapa satu contoh tuturan belum mewakili semua penutur bahasa Jawa?",
+      "sources": [
+        {
+          "title": "Bahasa Jawa — Provinsi Jawa Tengah",
+          "publisher": "Badan Pengembangan dan Pembinaan Bahasa",
+          "url": "https://petabahasa.kemendikdasmen.go.id/infobahasa.php?idb=57"
+        }
+      ],
+      "questions": [
+        {
+          "id": "yogyakarta_bahasa_q1",
+          "prompt": "Seseorang memakai bahasa Jawa di luar Pulau Jawa. Penjelasan yang tepat adalah…",
+          "options": [
+            "Bahasa Jawa juga memiliki sebaran di luar Jawa",
+            "Bahasa hanya mengikuti alamat sekolah",
+            "Ia pasti sedang berpura-pura",
+            "Bahasa Jawa hanya digunakan di DIY"
+          ],
+          "answer": 0,
+          "explanation": "Peta Bahasa mencatat sebaran bahasa Jawa di beberapa wilayah luar Jawa."
+        },
+        {
+          "id": "yogyakarta_bahasa_q2",
+          "prompt": "Tuturan teman Tegal berbeda dengan teman Yogyakarta. Apa langkah terbaik?",
+          "options": [
+            "Menghapus salah satu rekaman",
+            "Menyamakan dengan tebakan sendiri",
+            "Menanyakan arti dan asal variasinya",
+            "Menilai dialek yang paling tinggi"
+          ],
+          "answer": 2,
+          "explanation": "Perbedaan dialek dipelajari dengan bertanya dan mencatat."
+        },
+        {
+          "id": "yogyakarta_bahasa_q3",
+          "prompt": "Kesimpulan mana yang paling hati-hati setelah mewawancarai satu penutur?",
+          "options": [
+            "Semua penutur selalu berbicara sama",
+            "Dialek lain pasti keliru",
+            "Satu jawaban berlaku di semua tempat",
+            "Contoh ini perlu dilengkapi informasi pemakaiannya"
+          ],
+          "answer": 3,
+          "explanation": "Satu contoh belum mewakili keseluruhan keragaman pemakaian."
+        },
+        {
+          "id": "yogyakarta_bahasa_q4",
+          "prompt": "Apa yang diperkenalkan materi ini?",
+          "options": [
+            "Seluruh aturan tingkat tutur",
+            "Persebaran dan variasi bahasa Jawa",
+            "Pelafalan semua kosakata",
+            "Kemampuan menerjemahkan semua kalimat"
+          ],
+          "answer": 1,
+          "explanation": "Ruang lingkupnya pengantar sebaran dan dialek, bukan kursus bahasa lengkap."
+        },
+        {
+          "id": "yogyakarta_bahasa_q5",
+          "prompt": "Saat membuat poster keragaman bahasa, sikap yang sesuai adalah…",
+          "options": [
+            "Memberi nilai rendah pada dialek berbeda",
+            "Menyeragamkan seluruh ucapan",
+            "Menghargai variasi yang ditemukan",
+            "Menghapus nama asal penutur"
+          ],
+          "answer": 2,
+          "explanation": "Variasi merupakan bagian kekayaan bahasa yang perlu dihargai."
+        }
+      ]
+    },
+    {
+      "id": "sumbar_rumah_gadang",
+      "regionId": "sumatera_barat",
+      "title": "Rumah Gadang",
+      "category": "Budaya",
+      "minutes": 5,
+      "subtitle": "Bangunan dan kehidupan bersama",
+      "sections": [
+        {
+          "title": "Mengenali bentuknya",
+          "body": "Rumah Gadang merupakan rumah tradisional Minangkabau. Ciri visualnya antara lain atap gonjong yang melengkung dan meruncing ke atas serta struktur panggung. Bentuk dan jumlah gonjong dapat bervariasi; satu gambar tidak cukup untuk mewakili seluruh Rumah Gadang."
+        },
+        {
+          "title": "Lebih dari tempat tinggal",
+          "body": "Rumah Gadang berkaitan dengan keluarga besar dan kehidupan adat. Selain hunian, rumah ini dapat menjadi tempat musyawarah dan kegiatan adat. Karena itu, mempelajarinya perlu menghubungkan ruang bangunan dengan orang yang menggunakan dan merawatnya."
+        },
+        {
+          "title": "Mengamati dengan santun",
+          "body": "Sebagian Rumah Gadang masih menjadi tempat tinggal, sementara yang lain digunakan sebagai museum atau pusat budaya. Saat berkunjung, tanyakan bagian yang boleh dimasuki atau difoto. Bandingkan hasil pengamatan dengan penjelasan pengelola, bukan hanya dengan ilustrasi dekoratif dalam aplikasi."
+        }
+      ],
+      "reflection": "Pertanyaan apa yang dapat membantu menghubungkan bentuk rumah dengan fungsinya?",
+      "sources": [
+        {
+          "title": "Rumah Gadang: Arsitektur Tradisional dan Identitas Budaya Minangkabau",
+          "publisher": "Indonesia Travel — Kementerian Pariwisata",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/culture/rumah-gadang"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sumbar_rumah_gadang_q1",
+          "prompt": "Dua Rumah Gadang memiliki jumlah gonjong berbeda. Kesimpulan yang paling tepat adalah…",
+          "options": [
+            "Salah satunya pasti bukan rumah adat",
+            "Semua rumah wajib berjumlah sama",
+            "Gambar aplikasi pasti paling benar",
+            "Bentuknya dapat memiliki variasi"
+          ],
+          "answer": 3,
+          "explanation": "Rumah Gadang memiliki variasi; satu contoh tidak menjadi patokan tunggal."
+        },
+        {
+          "id": "sumbar_rumah_gadang_q2",
+          "prompt": "Agar memahami fungsi Rumah Gadang, pertanyaan mana yang paling membantu?",
+          "options": [
+            "Apa warna kendaraan pengunjung?",
+            "Kegiatan apa yang berlangsung di dalamnya?",
+            "Berapa harga kamera pengelola?",
+            "Berapa jumlah foto di ponsel?"
+          ],
+          "answer": 1,
+          "explanation": "Kegiatan penghuni dan masyarakat menghubungkan ruang dengan fungsi sosialnya."
+        },
+        {
+          "id": "sumbar_rumah_gadang_q3",
+          "prompt": "Penghuni tidak mengizinkan foto di suatu bagian rumah. Sikap yang tepat adalah…",
+          "options": [
+            "Menghormati batas yang diberikan",
+            "Mengambil foto saat penghuni pergi",
+            "Meminta teman memotret diam-diam",
+            "Menganggap semua rumah tempat umum"
+          ],
+          "answer": 0,
+          "explanation": "Sebagian Rumah Gadang masih dihuni; izin penghuni perlu dihormati."
+        },
+        {
+          "id": "sumbar_rumah_gadang_q4",
+          "prompt": "Apa yang kurang dari laporan yang hanya menyebut bentuk atap?",
+          "options": [
+            "Jumlah aplikasi yang digunakan",
+            "Merek telepon peneliti",
+            "Penjelasan fungsi dan kehidupan penggunanya",
+            "Waktu pengisian baterai"
+          ],
+          "answer": 2,
+          "explanation": "Bangunan juga memiliki fungsi hunian, sosial, dan adat."
+        },
+        {
+          "id": "sumbar_rumah_gadang_q5",
+          "prompt": "Apakah ilustrasi aplikasi cukup untuk menilai detail sebuah rumah asli?",
+          "options": [
+            "Ya, semua gambar pasti tepat",
+            "Tidak, perlu pengamatan dan sumber yang sesuai",
+            "Ya, bangunan tradisional selalu identik",
+            "Tidak perlu sumber tambahan"
+          ],
+          "answer": 1,
+          "explanation": "Ilustrasi dekoratif bukan dokumentasi arsitektur yang lengkap."
+        }
+      ]
+    },
+    {
+      "id": "sumbar_randai",
+      "regionId": "sumatera_barat",
+      "title": "Cerita dalam Randai",
+      "category": "Budaya",
+      "minutes": 5,
+      "subtitle": "Gerak, suara, dan kisah",
+      "sections": [
+        {
+          "title": "Seni yang memadukan unsur",
+          "body": "Randai adalah seni pertunjukan Minangkabau yang memadukan drama, musik, tari, dan unsur silat. Para pemain umumnya membentuk lingkaran. Melihatnya hanya sebagai tarian membuat kita melewatkan cerita dan dialog yang menjadi bagian pertunjukan."
+        },
+        {
+          "title": "Mengikuti jalannya cerita",
+          "body": "Cerita Randai dapat bersumber dari legenda atau sejarah Minangkabau. Saat menonton, perhatikan hubungan dialog, nyanyian, dan gerak dengan peristiwa cerita. Bedakan isi kisah pertunjukan dari fakta sejarah yang memerlukan pemeriksaan sumber tersendiri."
+        },
+        {
+          "title": "Pesan yang dibicarakan bersama",
+          "body": "Randai dapat menjadi hiburan sekaligus sarana menyampaikan pesan budaya dan moral. Seusai menonton, diskusikan tindakan tokoh dan alasanmu menilainya. Dua penonton mungkin menangkap bagian berbeda; gunakan peristiwa dalam cerita untuk mendukung pendapat, lalu dengarkan penjelasan pelaku seninya."
+        }
+      ],
+      "reflection": "Bagaimana kamu menjelaskan pesan cerita dengan bukti dari tindakan tokohnya?",
+      "sources": [
+        {
+          "title": "Randai: Seni Pertunjukan Tradisional Minangkabau yang Unik",
+          "publisher": "Indonesia Travel — Kementerian Pariwisata",
+          "url": "https://www.indonesia.travel/id/id/travel-ideas/culture/randai"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sumbar_randai_q1",
+          "prompt": "Teman menyebut Randai hanya tarian melingkar. Unsur apa yang perlu ditambahkan?",
+          "options": [
+            "Ukuran tiket pertunjukan",
+            "Warna tempat duduk",
+            "Drama, musik, dan unsur silat",
+            "Jumlah kendaraan penonton"
+          ],
+          "answer": 2,
+          "explanation": "Randai memadukan beberapa unsur seni dan penceritaan."
+        },
+        {
+          "id": "sumbar_randai_q2",
+          "prompt": "Kamu ingin menjelaskan pesan sebuah pertunjukan. Bukti yang paling tepat adalah…",
+          "options": [
+            "Tindakan dan dialog tokoh",
+            "Harga makanan di lokasi",
+            "Jumlah lampu di jalan",
+            "Merek kamera penonton"
+          ],
+          "answer": 0,
+          "explanation": "Tindakan serta dialog menjadi dasar menafsirkan pesan cerita."
+        },
+        {
+          "id": "sumbar_randai_q3",
+          "prompt": "Sebuah adegan mengangkat legenda. Bagaimana memperlakukannya dalam laporan sejarah?",
+          "options": [
+            "Langsung dianggap bukti tunggal",
+            "Dianggap pasti tidak berguna",
+            "Disamakan dengan semua peristiwa nyata",
+            "Dibedakan dari fakta yang perlu diverifikasi"
+          ],
+          "answer": 3,
+          "explanation": "Pertunjukan dan legenda perlu dibedakan dari pembuktian fakta sejarah."
+        },
+        {
+          "id": "sumbar_randai_q4",
+          "prompt": "Dua penonton berbeda tafsir tentang tokoh. Langkah diskusi yang baik adalah…",
+          "options": [
+            "Menilai siapa paling keras",
+            "Membandingkan bukti dari cerita",
+            "Menghentikan semua pendapat",
+            "Mengabaikan dialog pertunjukan"
+          ],
+          "answer": 1,
+          "explanation": "Perbedaan tafsir dapat dibahas dengan bukti, bukan serangan pribadi."
+        },
+        {
+          "id": "sumbar_randai_q5",
+          "prompt": "Mengapa menonton gerak saja belum cukup memahami Randai?",
+          "options": [
+            "Karena semua dialog tidak penting",
+            "Karena penonton harus menghitung langkah",
+            "Karena suara dan cerita juga membangun pertunjukan",
+            "Karena hanya kostum menentukan makna"
+          ],
+          "answer": 2,
+          "explanation": "Gerak, suara, dialog, dan cerita dipahami sebagai kesatuan."
+        }
+      ]
+    },
+    {
+      "id": "sumbar_bahasa",
+      "regionId": "sumatera_barat",
+      "title": "Bahasa Minangkabau",
+      "category": "Bahasa",
+      "minutes": 5,
+      "subtitle": "Mengenal ragam di tiap wilayah",
+      "sections": [
+        {
+          "title": "Bahasa dengan variasi",
+          "body": "Bahasa Minangkabau digunakan di Sumatra Barat dan juga memiliki persebaran di provinsi lain. Badan Bahasa mencatat variasi dialek di Sumatra Barat. Karena itu, contoh tuturan dari satu tempat tidak selalu mewakili semua penuturnya."
+        },
+        {
+          "title": "Membaca peta bahasa",
+          "body": "Peta Bahasa dan Sastra menyebut dialek Pasaman, Agam–Tanah Datar, Lima Puluh Kota, Koto Baru, dan Pancung Soal. Nama-nama ini membantu mengenali persebaran variasi. Pemetaan bahasa juga mengingatkan bahwa Sumatra Barat memiliki bahasa lain, antara lain bahasa Mentawai."
+        },
+        {
+          "title": "Belajar dari penutur",
+          "body": "Sebelum membandingkan kosakata, catat lokasi, arti yang dimaksud, dan situasi pembicaraannya. Tanyakan perbedaan dengan santun dan hindari memberi peringkat pada dialek. Materi ini belum menyediakan rekaman pelafalan atau percakapan; pengenalan bunyi membutuhkan penutur atau media yang telah diperiksa."
+        }
+      ],
+      "reflection": "Mengapa wilayah administrasi tidak boleh langsung dianggap memiliki satu bahasa saja?",
+      "sources": [
+        {
+          "title": "Peta Bahasa dan Sastra — Bahasa Daerah di Sumatera Barat",
+          "publisher": "Badan Pengembangan dan Pembinaan Bahasa",
+          "url": "https://petabahasa.kemendikdasmen.go.id/bahasasastra/provinsi_bahasa.php?id=3"
+        },
+        {
+          "title": "Provinsi Sumatra Barat — Peta Bahasa",
+          "publisher": "Badan Pengembangan dan Pembinaan Bahasa",
+          "url": "https://petabahasa.kemendikdasmen.go.id/provinsi.php?idp=Sumatra+Barat"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sumbar_bahasa_q1",
+          "prompt": "Mengapa satu catatan penutur belum mewakili semua bahasa Minangkabau?",
+          "options": [
+            "Karena catatan selalu salah",
+            "Karena hanya gambar yang berguna",
+            "Karena semua orang berbahasa sama",
+            "Karena terdapat variasi dialek dan pemakaian"
+          ],
+          "answer": 3,
+          "explanation": "Keragaman perlu dipertimbangkan sebelum membuat kesimpulan umum."
+        },
+        {
+          "id": "sumbar_bahasa_q2",
+          "prompt": "Pernyataan mana yang paling sesuai tentang Sumatra Barat?",
+          "options": [
+            "Satu provinsi hanya boleh satu bahasa",
+            "Terdapat keragaman bahasa, termasuk Mentawai",
+            "Semua bahasa daerah sama persis",
+            "Bahasa selalu mengikuti batas kabupaten"
+          ],
+          "answer": 1,
+          "explanation": "Pemetaan mencatat lebih dari satu bahasa di wilayah provinsi ini."
+        },
+        {
+          "id": "sumbar_bahasa_q3",
+          "prompt": "Saat membandingkan dua kata yang berbeda, apa yang sebaiknya dicatat?",
+          "options": [
+            "Asal penutur, arti, dan situasi",
+            "Jumlah aplikasi di ponsel",
+            "Harga buku catatan",
+            "Warna meja wawancara"
+          ],
+          "answer": 0,
+          "explanation": "Informasi pemakaian membantu membandingkan kata secara lebih tepat."
+        },
+        {
+          "id": "sumbar_bahasa_q4",
+          "prompt": "Teman ingin memastikan pelafalan hanya melalui teks. Saran yang tepat adalah…",
+          "options": [
+            "Mengikuti tebakan pembaca pertama",
+            "Membaca lebih cepat tanpa sumber",
+            "Memakai rekaman atau pendamping penutur yang sesuai",
+            "Menyamakan semua bunyi dengan bahasa Indonesia"
+          ],
+          "answer": 2,
+          "explanation": "Sumber bunyi diperlukan untuk memastikan pengucapan."
+        },
+        {
+          "id": "sumbar_bahasa_q5",
+          "prompt": "Apa fungsi daftar dialek dalam materi ini?",
+          "options": [
+            "Menetapkan dialek paling unggul",
+            "Membantu mengenali keragaman dan persebaran",
+            "Melarang perubahan bahasa",
+            "Menggantikan seluruh penutur"
+          ],
+          "answer": 1,
+          "explanation": "Daftar tersebut merupakan pengantar variasi, bukan peringkat mutu."
+        }
+      ]
+    }
+  ]
+}
